@@ -20,12 +20,13 @@ const List = styled.ul`
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-  margin: 0 auto;
 `;
 
 const Item = styled.li`
   display: flex;
+  width: calc(100% - 60px);
   height: auto;
   padding: 20px;
   background-color: pink;
+  margin: 0 auto;
 `;

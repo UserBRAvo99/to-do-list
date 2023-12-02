@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = { todo: [{ id: 1, done: false, task: "Щось зробити" }] };
+const initialState = { todos: [{ id: 1, done: false, text: "Щось зробити" }] };
 
 const todoListSlice = createSlice({
   name: "todoList",
