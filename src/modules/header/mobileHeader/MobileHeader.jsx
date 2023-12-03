@@ -15,7 +15,8 @@ export default MobileHeader;
 const Header = styled.header`
   display: flex;
   width: 100%;
-  background-color: pink;
+  background-color: ${(props) => props.theme.colors.main};
   justify-content: center;
+  box-shadow: ${(props) => props.theme.shadows.default};
   padding: 0 20px;
 `;

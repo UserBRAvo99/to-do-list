@@ -1,4 +1,12 @@
 const theme = {
+  colors: {
+    main:'blue'
+  },
+  shadows: {
+    default: '4px 4px 2px 4px black'
+  }
+//  dispatch(setTheme('forestTheme'))
+
   safari: {
     textColorWhite: "rgb(255,255,255)",
     textColorBlack: "rgb(34,34,34)",
